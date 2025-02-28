@@ -69,6 +69,6 @@
 		<AssemblyName>YAF</AssemblyName>
 	</PropertyGroup>
 
-	<ProjectExtensions><VisualStudio><UserProperties mimetypes_1json__JsonSchema="" wwwroot_4languages_4english_1json__JsonSchema="https://gitlab.com/appsemble/appsemble/-/raw/HEAD/packages/cli/assets/appsemblerc.schema.json" /></VisualStudio></ProjectExtensions>
+	<ProjectExtensions><VisualStudio><UserProperties wwwroot_4languages_4english_1json__JsonSchema="https://gitlab.com/appsemble/appsemble/-/raw/HEAD/packages/cli/assets/appsemblerc.schema.json" /></VisualStudio></ProjectExtensions>
 
 </Project>

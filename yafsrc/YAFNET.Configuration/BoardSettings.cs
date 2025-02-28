@@ -1723,7 +1723,7 @@ public class BoardSettings
     /// </summary>
     public string ForumLogo
     {
-        get => this.Registry.GetValue("ForumLogo", "YAFLogo.svg");
+        get => this.Registry.GetValue("ForumLogo", "logo3-removebg-shadow.png");
 
         set => this.Registry.SetValue("ForumLogo", value);
     }

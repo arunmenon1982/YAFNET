@@ -93,8 +93,8 @@ public static class FooterHtmlHelper
         var yafUrlTag = new TagBuilder(HtmlTag.A);
 
         yafUrlTag.MergeAttribute(HtmlAttribute.Target, "_blank");
-        yafUrlTag.MergeAttribute(HtmlAttribute.Title, "YetAnotherForum.NET");
-        yafUrlTag.MergeAttribute(HtmlAttribute.Href, "https://www.yetanotherforum.net");
+        yafUrlTag.MergeAttribute(HtmlAttribute.Title, "Gaurdian-Hive");
+        yafUrlTag.MergeAttribute(HtmlAttribute.Href, "https://www.gaurdianhive.ca");
 
         yafUrlTag.InnerHtml.Append(
             $"{BoardContext.Current.Get<ILocalization>().GetText("COMMON", "POWERED_BY")} YAF.NET");
@@ -113,10 +113,10 @@ public static class FooterHtmlHelper
         var yafCopyrightTag = new TagBuilder(HtmlTag.A);
 
         yafCopyrightTag.MergeAttribute(HtmlAttribute.Target, "_blank");
-        yafCopyrightTag.MergeAttribute(HtmlAttribute.Title, "YetAnotherForum.NET");
-        yafCopyrightTag.MergeAttribute(HtmlAttribute.Href, "https://www.yetanotherforum.net");
+        yafCopyrightTag.MergeAttribute(HtmlAttribute.Title, "Gaurdian-Hive");
+        yafCopyrightTag.MergeAttribute(HtmlAttribute.Href, "https://www.gaurdianhive.ca");
 
-        yafCopyrightTag.InnerHtml.Append($"YAF.NET © 2003-{DateTime.UtcNow.Year} Yet Another Forum.NET");
+        yafCopyrightTag.InnerHtml.Append($"Gaurdian-Hive © {DateTime.UtcNow.Year} Parents collaboration site");
 
         yafCopyrightTag.TagRenderMode = TagRenderMode.Normal;
 

@@ -326,7 +326,7 @@ public class InstallModel : InstallPage
                 forumName,
                 cultures,
                 forumEmailAddress,
-                "YAFLogo.svg",
+                "YAFLogo.png",
                 forumBaseUrlMask,
                 user.UserName,
                 user.Email,
