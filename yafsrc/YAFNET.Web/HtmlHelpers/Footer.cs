@@ -94,7 +94,7 @@ public static class FooterHtmlHelper
 
         yafUrlTag.MergeAttribute(HtmlAttribute.Target, "_blank");
         yafUrlTag.MergeAttribute(HtmlAttribute.Title, "Gaurdian-Hive");
-        yafUrlTag.MergeAttribute(HtmlAttribute.Href, "https://www.gaurdianhive.ca");
+        yafUrlTag.MergeAttribute(HtmlAttribute.Href, "https://gaurdianhive.ca");
 
         yafUrlTag.InnerHtml.Append(
             $"{BoardContext.Current.Get<ILocalization>().GetText("COMMON", "POWERED_BY")} YAF.NET");
@@ -114,9 +114,9 @@ public static class FooterHtmlHelper
 
         yafCopyrightTag.MergeAttribute(HtmlAttribute.Target, "_blank");
         yafCopyrightTag.MergeAttribute(HtmlAttribute.Title, "Gaurdian-Hive");
-        yafCopyrightTag.MergeAttribute(HtmlAttribute.Href, "https://www.gaurdianhive.ca");
+        yafCopyrightTag.MergeAttribute(HtmlAttribute.Href, "https://gaurdianhive.ca");
 
-        yafCopyrightTag.InnerHtml.Append($"Gaurdian-Hive © {DateTime.UtcNow.Year} Parents collaboration site");
+        yafCopyrightTag.InnerHtml.Append($"Gaurdian-Hive © {DateTime.UtcNow.Year} A digital parenting community");
 
         yafCopyrightTag.TagRenderMode = TagRenderMode.Normal;
 

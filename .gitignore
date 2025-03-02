@@ -118,3 +118,4 @@ yafsrc/YAFNET.RazorPages/yarn.lock
 yafsrc/YAFNET.UI/YAFNET.RazorPages/yarn.lock
 yafsrc/Tools/GitHubReleaser/YAFNET.json
 yafsrc/YAFNET.UI/YAFNET.RazorPages/package-lock.json
+yafsrc/deploy/YAF.PostgreSQL-v4.0.0-rc.4.zip
