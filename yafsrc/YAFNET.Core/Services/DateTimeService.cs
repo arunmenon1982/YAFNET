@@ -25,8 +25,7 @@
 namespace YAF.Core.Services;
 
 using System;
-
-using FarsiLibrary.Utils;
+using FarsiLibrary.Core.Utils;
 
 /// <summary>
 /// The YAF DateTime.

@@ -22,12 +22,11 @@
  * under the License.
  */
 
-namespace YAF.Core.Extensions;
 
 using System;
+using FarsiLibrary.Core.Utils;
 
-using FarsiLibrary.Utils;
-
+namespace YAF.Core.Extensions;
 /// <summary>
 /// The culture extensions.
 /// </summary>
